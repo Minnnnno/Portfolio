@@ -1,0 +1,110 @@
+<!-- Mervyn Phua 
+8500 7635 
+mervynphua9@gmail.com
+-->
+
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="css/profile.css" rel="stylesheet" />
+  <link href="css/home.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/home.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://kit.fontawesome.com/b07a8739ee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color:black;">
+    <!-- Navigation Block -->
+		<div class="bloc l-bloc" id="nav-bloc" style="margin-left:50%;"> 
+			<div class="container">
+				<nav class="navbar row">
+					<!-- <div class="navbar-header">
+						<a class="navbar-brand" href="#">Company</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div> -->
+					<div class="collapse navbar-collapse navbar-1">
+						<ul class="site-navigation nav">
+							<li>
+								<a href="index.html" style="color:white; font-size:25px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Home</a>
+							</li>
+							<li>
+								<a href="aboutMe.html" style="color:white; font-size:25px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About me</a>
+							</li>
+							<li>
+								<a href="volunteer.html" style="color:white; font-size:25px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Volunteer</a>
+							</li>
+							<li>
+								<a href="./myPortfolio.html" style="color:white; font-size:25px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Portfolio</a>
+							</li>
+							<li>
+								<a href="./education.html" style="color:white; font-size:25px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Education</a>
+							</li>
+							</ul>
+		
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- Navigation Block END -->
+
+<div class="row">
+
+	<div class="col-5" style="padding-left:10%;">
+		<h2 style="color:#bfbfbf; font-family: Georgia, 'Times New Roman', Times, serif;">Who am I</h2>
+		<h1 style="color:#FFFFFF; font-family: Georgia, 'Times New Roman', Times, serif;">My interests</h1>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">I love to listen to music</ul>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">I love watching sports, mainly basketball and football</ul>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">I am a Liverpool and Golden State Warriors fan</ul>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">I like to <a href="./volunteer.html">volunteer</a> during my free time </ul>
+		<!-- <ul style="color:#FFFFFF">I love to play with legos. thus, I joined the Robotics CCA during secondary school and was appointed club President.</ul> -->
+		<!-- My goals -->
+		<h1 style="color:#FFFFFF; font-family: Georgia, 'Times New Roman', Times, serif;">My goals</h1>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">I would like to further my studies in University</ul>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">Attend a Warriors and Liverpool match</ul>
+		<ul style="color:#FFFFFF; font-family:Arial, Helvetica, sans-serif;">Travel the world</ul>
+	</div>
+
+	<div class="col-3">
+		<h2 style="color:#FFFFFF; padding-bottom:2%; font-family: Georgia, 'Times New Roman', Times, serif;">My skills</h2>
+		<i class="fab fa-html5 fa-3x" style="color:#e34c26;"></i>
+		<i class="fab fa-css3-alt fa-3x" style="padding-left:7%; color:#2965f1;"></i>
+		<h2 style="font-size:25px; color: white;padding-top:4%; font-family:'Times New Roman', Times, serif;">Web Development</h2>
+		<p style="color:white; margin-right:25%; font-family:Arial, Helvetica, sans-serif;">After taking a semester of front-end web development, I am able to create decent user friendly websites.</p>
+		
+		<i class="fab fa-react fa-3x" style="padding-top:20%; color:#61DBFB;"></i>
+		<h2 style="font-size:25px; color: white;padding-top:4%; font-family:'Times New Roman', Times, serif;">React Native</h2>
+		<p style="color:white; margin-right:25%; font-family:Arial, Helvetica, sans-serif;"> After taking a semester of mobile app application with React Native, I am able to create simple mobile apps using react native</p>
+	</div>
+
+
+	<div class="col-3">
+		<img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1632804082/Portfolio/Mysql_edwtt9.png" style="width:200px; height:100px; margin-top:2%;">
+		<h2 style="font-size:25px; color: white; font-family:'Times New Roman', Times, serif;">SQL Coding</h2>
+		<p style="color:white; margin-right:25%; font-family:Arial, Helvetica, sans-serif;">After taking a semester of backend programming and secure coding, I am able to code backend functions and prevent hacking. </p>
+
+		<i class="fab fa-java fa-3x" style="padding-top:13%; padding-bottom:5%; color:#5382a1;"></i>
+		<h2 style="font-size:25px; color: white; font-family:'Times New Roman', Times, serif;">Java & JSP</h2>
+		<p style="color:white; margin-right:25%; font-family:Arial, Helvetica, sans-serif;">After taking 2 semesters of Java modules, I am able to utilise Java Servlets to perform authentication and validation easily.</p>
+	</div>
+
+</div>
+
+</body>
+
+
+</html>
+
+
