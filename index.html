@@ -1,84 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mervyn's portfolio of technology, education and community projects.">
     <title>Mervyn's Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/site.js" defer></script>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./aboutMe.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./volunteer.html">Volunteer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./myPortfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./education.html">Education</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="./certifications.html"
-                >Certifications</a
-              >
-            </li> -->
-          </ul>
+    <header class="site-header">
+      <nav class="shell nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="./index.html"><span class="brand-mark">M</span><span class="brand-label">Mervyn's Portfolio</span></a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+        <ul class="nav-links">
+          <li><a href="./index.html" aria-current="page">Home</a></li>
+          <li><a href="./aboutMe.html">About Me</a></li>
+          <li><a href="./myPortfolio.html">Portfolio</a></li>
+          <li><a href="./volunteer.html">Volunteer</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="./certifications.html">Certifications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="shell hero-content">
+          <p class="eyebrow">Portfolio · Community · Technology</p>
+          <h1>Hi! I'm <span>Mervyn</span></h1>
+          <div class="hero-actions">
+            <a class="button button-primary" href="./myPortfolio.html">Explore Portfolio <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="./aboutMe.html">About Me</a>
+          </div>
+          <span class="scroll-note">Scroll to explore</span>
         </div>
-      </div>
-    </nav>
-
-    <!-- Homepage Content -->
-    <div class="homepage">
-      <div class="container text-center">
-        <h1 class="display-3">Hi! I'm Mervyn</h1>
-      </div>
-    </div>
-
-    <!-- Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+      </section>
+    </main>
   </body>
 </html>

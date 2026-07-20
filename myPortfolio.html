@@ -1,140 +1,102 @@
-<!-- Mervyn Phua 
-8500 7635 
-mervynphua9@gmail.com
--->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mervyn's Polytechnic and University technology projects.">
+    <title>Portfolio · Mervyn's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="shell nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="./index.html"><span class="brand-mark">M</span><span class="brand-label">Mervyn's Portfolio</span></a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li><li><a href="./aboutMe.html">About Me</a></li>
+          <li><a href="./myPortfolio.html" aria-current="page">Portfolio</a></li><li><a href="./volunteer.html">Volunteer</a></li>
+          <li><a href="./education.html">Education</a></li><li><a href="./certifications.html">Certifications</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<!DOCTYPE html>
+    <main class="page-main portfolio-main">
+      <section class="page-hero shell">
+        <div class="page-hero-grid">
+          <div><p class="eyebrow">Selected digital work</p><h1>Portfolio</h1></div>
+          <span class="hero-index">02</span>
+        </div>
+      </section>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link href="css/navbar.css" rel="stylesheet" />
-  <!-- <link href="css/home.css" rel="stylesheet" /> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/home.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-	<script src="https://kit.fontawesome.com/b07a8739ee.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+      <section class="section shell portfolio-polytechnic">
+        <div class="section-head reveal"><div><p class="eyebrow">Learning by building</p><h2 class="section-title">Polytechnic projects</h2></div><span class="section-count">05 projects</span></div>
+        <div class="filter-bar reveal" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all">All projects</button>
+          <button class="filter-button" type="button" data-filter="front-end">Front-end</button>
+          <button class="filter-button" type="button" data-filter="back-end">Back-end</button>
+          <button class="filter-button" type="button" data-filter="application">Application</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="back-end" data-lightbox data-caption="Hawkr — My first JSP project - A Food delivery E-Commerce website ">
+            <div class="project-image"><img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962056/Hawkr_pr1gwb.jpg" alt="Hawkr"><span class="project-number">01</span></div>
+            <div class="project-body"><div class="project-meta"><span>2021 - 2021</span><span>JSP</span></div><h2>Hawkr</h2><p>My first JSP project - A Food delivery E-Commerce website </p></div>
+          </article>
+          <article class="project-card reveal" data-category="back-end" data-lightbox data-caption="Sp Games — My first back-end project - A website that intorduces people to online games.">
+            <div class="project-image"><img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962118/SP_games_gzhyfu.jpg" alt="Sp Games"><span class="project-number">02</span></div>
+            <div class="project-body"><div class="project-meta"><span>2020 - 2021</span><span>Back-end</span></div><h2>Sp Games</h2><p>My first back-end project - A website that intorduces people to online games.</p></div>
+          </article>
+          <article class="project-card reveal" data-category="front-end" data-lightbox data-caption="IT4E — My first front-end project - A website that introduces users to our IT services.">
+            <div class="project-image"><img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962057/IT4E_mrt6wq.jpg" alt="IT4E"><span class="project-number">03</span></div>
+            <div class="project-body"><div class="project-meta"><span>2020 - 2020</span><span>Front-end</span></div><h2>IT4E</h2><p>My first front-end project - A website that introduces users to our IT services.</p></div>
+          </article>
+          <article class="project-card reveal" data-category="application" data-lightbox data-caption="Bookr — My first C# project - A windows form that allows users to book seats for a cinema">
+            <div class="project-image"><img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964508/c3883b04-bb4e-4158-bf25-de0e02f1e24a_b74beb.jpg" alt="Bookr"><span class="project-number">04</span></div>
+            <div class="project-body"><div class="project-meta"><span>2021-2021</span><span>C#</span></div><h2>Bookr</h2><p>My first C# project - A windows form that allows users to book seats for a cinema</p></div>
+          </article>
+          <article class="project-card reveal" data-category="back-end" data-lightbox data-caption="Zeus Property — My Final Year Project - A one-stop platform for users to look for information about the real estate industry">
+            <div class="project-image"><img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964383/a611a21c-72b5-4264-819d-b5c6f58e51b2_ndr0ew.jpg" alt="Zeus Property"><span class="project-number">05</span></div>
+            <div class="project-body"><div class="project-meta"><span>2022 - 2022</span><span>Final Year Project</span></div><h2>Zeus Property</h2><p>My Final Year Project - A one-stop platform for users to look for information about the real estate industry</p></div>
+          </article>
+        </div>
+      </section>
 
-<body style="background-color:black;">
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-light">
-  <div class="container">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./aboutMe.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./volunteer.html">Volunteer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./education.html">Education</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="./certifications.html">Certifications</a>
-        </li> -->
-      </ul>
-    </div>
-  </div>
-</nav>
+      <section class="section shell portfolio-university">
+        <div class="section-head reveal"><div><p class="eyebrow">Building across languages</p><h2 class="section-title">University projects</h2></div><span class="section-count">05 projects</span></div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-image--contain" data-lightbox data-caption="Tic-Tac-Toe — A Tic-Tac-Toe project made with C and machine learning."><img src="./images/project/ttt.jpg" alt="Tic-Tac-Toe project"><span class="project-number">01</span></div>
+            <div class="project-body"><div class="project-meta"><span>University project</span><span>C · Machine Learning</span></div><h2>Tic-Tac-Toe</h2><p>A Tic-Tac-Toe project made with C and machine learning.</p><a class="project-link" href="https://github.com/zhiyu-l/TicTacToe" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-media">
+              <div class="project-image project-image--contain" data-lightbox data-caption="Sims Simulator — OOP project made with Java in CLI."><img src="./images/project/OOP.png" alt="Sims Simulator OOP project"><span class="project-number">02</span></div>
+              <div class="project-image project-image--contain" data-lightbox data-caption="Sims Simulator — OOP project made with Java in CLI."><img src="./images/project/OOP1.png" alt="Sims Simulator OOP project CLI"></div>
+            </div>
+            <div class="project-body"><div class="project-meta"><span>OOP project</span><span>Java · CLI</span></div><h2>Sims Simulator</h2><p>OOP project made with Java in CLI.</p><a class="project-link" href="https://github.com/fatmosthegreat/CSC1109-sims" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-media">
+              <div class="project-image project-image--contain" data-lightbox data-caption="Data Structures and Algorithms — A DSA project made with Python, using sorting and searching algorithms with different data structures."><img src="./images/project/DSA.png" alt="Data Structures and Algorithms project"><span class="project-number">03</span></div>
+              <div class="project-image project-image--contain" data-lightbox data-caption="Data Structures and Algorithms — A DSA project made with Python, using sorting and searching algorithms with different data structures."><img src="./images/project/DSA1.png" alt="Data Structures and Algorithms project output"></div>
+            </div>
+            <div class="project-body"><div class="project-meta"><span>DSA project</span><span>Python</span></div><h2>Data Structures and Algorithms</h2><p>A DSA project made with Python, using sorting and searching algorithms with different data structures.</p><a class="project-link" href="https://flightsim-gamma.vercel.app/map" target="_blank" rel="noopener noreferrer">View live project <span aria-hidden="true">↗</span></a><a class="project-link" href="https://github.com/boring-cypher/Flight_Sim" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-image--contain" data-lightbox data-caption="Learning Management System — An LMS web project made with Rust."><img src="./images/project/LMS.jpg" alt="Learning Management System web project"><span class="project-number">04</span></div>
+            <div class="project-body"><div class="project-meta"><span>Web project</span><span>Rust</span></div><h2>Learning Management System</h2><p>An LMS web project made with Rust.</p><a class="project-link" href="https://github.com/Minnnnno/LMS_Project" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-media">
+              <div class="project-image project-image--contain" data-lightbox data-caption="EPL Database — A database project made with Python Flask to store data about EPL players, matches and more."><img src="./images/project/DB.png" alt="EPL Database project"><span class="project-number">05</span></div>
+              <div class="project-image project-image--contain" data-lightbox data-caption="EPL Database — A database project made with Python Flask to store data about EPL players, matches and more."><img src="./images/project/DB1.png" alt="EPL Database project data"></div>
+            </div>
+            <div class="project-body"><div class="project-meta"><span>Database project</span><span>Python · Flask</span></div><h2>EPL Database</h2><p>A database project made with Python Flask to store data about EPL players, matches and more.</p><a class="project-link" href="https://github.com/ra1dev/INF2003_Project" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" style="margin-top:7%">
-    <div class="item active">
-      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962056/Hawkr_pr1gwb.jpg" alt="Hawkr" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
-      <div class="carousel-caption" style="padding-bottom:5%;">
-        <h2 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">Hawkr</h2>
-        <h3 style="color:white; font-family: Georgia, 'Times New Roman', Times, serif;">2021 - 2021</h3>
-      </div>
-      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first JSP project - A Food delivery E-Commerce website </h2>
-    </div>
-
-    <div class="item">
-      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962118/SP_games_gzhyfu.jpg" alt="Sp Games" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
-      <div class="carousel-caption" style="padding-bottom: 5%;">
-        <h2 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">Sp Games</h2>
-        <h3 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">2020 - 2021</h3>
-      </div>
-      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first back-end project - A website that intorduces people to online games.</h2>
-    </div>
-
-    <div class="item">
-      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962057/IT4E_mrt6wq.jpg" alt="IT4E" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
-      <div class="carousel-caption" style="padding-bottom:5%;">
-        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">IT4E</h2>
-        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2020 - 2020</h3>
-      </div>
-      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first front-end project - A website that introduces users to our IT services.</h2>
-    </div>
-
-    <div class="item">
-      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964508/c3883b04-bb4e-4158-bf25-de0e02f1e24a_b74beb.jpg" alt="" style="width:60%; height:50%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
-      <div class="carousel-caption" style="padding-bottom:5%;">
-        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">Bookr</h2>
-        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2021-2021</h3>
-      </div>
-      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first C# project - A windows form that allows users to book seats for a cinema</h2>
-    </div>
-
-    <div class="item">
-      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964383/a611a21c-72b5-4264-819d-b5c6f58e51b2_ndr0ew.jpg" alt="Zeus Property" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
-      <div class="carousel-caption" style="padding-bottom:5%;">
-        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">Zeus Property</h2>
-        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2022 - 2022</h3>
-      </div>
-      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My Final Year Project - A one-stop platform for users to look for information about the real estate industry</h2>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-</body>
-
-
+    <footer class="site-footer"><div class="shell footer-inner"><span class="footer-mark">Mervyn's Portfolio</span><p>Technology, learning &amp; community.</p></div></footer>
+  </body>
 </html>
-
-
